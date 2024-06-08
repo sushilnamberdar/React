@@ -17,6 +17,7 @@ import Dom from './Component/Pages/DomIntroduction';
 import VirtualDomIntroduction from './Component/Pages/ VirtualDomIntroduction';
 import ReactProps from './Component/Pages/ReactProps';
 import ReactComponents from './Component/Pages/ReactComponents';
+import ReactHooks from './Component/Pages/ReactHooks';
 
 
 
@@ -28,7 +29,6 @@ function App() {
 
       <Router>
         <Navbar />
-       
         <Mainmenu />
         <Routes>
           <Route path='/contectus' element={<Contectus />} />
@@ -43,6 +43,7 @@ function App() {
           <Route path='home/vdomIntroduction' element={<VirtualDomIntroduction/>} />
           <Route path='home/props' element={<ReactProps/>} />
           <Route path='home/ReactComponents' element={<ReactComponents/>} />
+          <Route path='home/reacthooks' element={<ReactHooks/>}></Route>
         </Routes>
       
         <Footer/>

@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     `;
 
     return (
-        <div className="flex justify-center items-center lg:-mt-40">
+        <div className="flex justify-center items-center lg:-mt-[470px]">
             <div className="max-w-full lg:max-w-screen-md pl-8 pr-8 space-y-4" style={{ fontSize: '20px' }}>
                 <h1 style={{ fontSize: '30px' }}>Introduction to the DOM</h1>
                 <p>The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as a tree of nodes.</p>

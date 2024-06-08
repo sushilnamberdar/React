@@ -58,7 +58,7 @@ function myVehicle({ model, registration: { state } }) {
 
 
     return (
-        <div class=" flex justify-center  items-center lg:-mt-40">
+        <div class=" flex justify-center  items-center lg:-mt-[470px]">
             <div class="max-w-full lg:max-w-screen-md pl-8 pr-8 space-y-4" style={{ fontSize: '20px' }}>
                 <h1 style={{ fontSize: '30px' }}>React ES6 Destructuring</h1>
 
