@@ -54,7 +54,56 @@ export const ReactES6 = () => {
     Spared Operator }
       }
       const mycar = new Model("Ford", "Mustang");
-      mycar.show();`
+      mycar.show();`;
+
+  const ex5code = `hello = () => {
+  return "Hello World!";
+    }`
+  const ex6code = `hello = () => "Hello World!";`
+
+  const ex7code = `hello = (val) => "Hello " + val;`
+  const ex8code = `hello = val => "Hello " + val;`
+
+  const ex9code = `class Header {
+  constructor() {
+    this.color = "Red";
+  }
+
+//Regular function:
+  changeColor = function() {
+    document.getElementById("demo").innerHTML += this;
+  }
+}
+
+const myheader = new Header();
+
+//The window object calls the function:
+window.addEventListener("load", myheader.changeColor);
+
+//A button object calls the function:
+document.getElementById("btn").addEventListener("click", myheader.changeColor);`
+
+const ex10code = `class Header {
+  constructor() {
+    this.color = "Red";
+  }
+
+//Arrow function:
+  changeColor = () => {
+    document.getElementById("demo").innerHTML += this;
+  }
+}
+
+const myheader = new Header();
+
+
+//The window object calls the function:
+window.addEventListener("load", myheader.changeColor);
+
+//A button object calls the function:
+document.getElementById("btn").addEventListener("click", myheader.changeColor);`
+
+
 
   return (
     <div class=" flex justify-center  items-center lg:-mt-40">
@@ -114,6 +163,66 @@ export const ReactES6 = () => {
         <pre>
           <Code code={ex4code} language='javascript'></Code>
         </pre>
+        <h1 style={{ fontSize: '30px' }}>React ES6 Arrow Functions </h1>
+        <h1 style={{ fontSize: '30px' }}>Example:</h1>
+
+        <pre>
+          <Code code={ex5code} language='javascript'></Code>
+        </pre>
+
+        <p>It gets shorter! If the function has only one statement, and the statement returns a value, you can remove the brackets and the return keyword: </p>
+        <h1 style={{ fontSize: '30px' }}>Example:</h1>
+        <p>Arrow Functions Return Value by Default:</p>
+        <pre>
+          <Code code={ex6code} language='javascript'></Code>
+
+        </pre>
+        <p className='bg-yellow-100 text-black pl-5 pr-5'>Note: This works only if the function has only one statement.</p>
+        <p>If you have parameters, you pass them inside the parentheses:</p>
+        <h1 style={{ fontSize: '30px' }}>Example:</h1>
+        <p>Arrow Function With Parameters</p>
+        <pre>
+          <Code code={ex7code} language='javascript'></Code>
+        </pre>
+        <p>In fact, if you have only one parameter, you can skip the parentheses as well:</p>
+        <h1 style={{ fontSize: '30px' }}>Example:</h1>
+        <pre>
+          <Code code={ex8code} language='javascript'></Code>
+        </pre>
+        <h1 style={{ fontSize: '30px' }}>What About <span className='text-red-600'>this</span> ? </h1>
+
+        <p>The handling of this is also different in arrow functions compared to regular functions.
+
+          In short, with arrow functions there is no binding of this.
+
+          In regular functions the this keyword represented the object that called the function, which could be the window, the document, a button or whatever.
+
+          With arrow functions, the this keyword always represents the object that defined the arrow function.
+
+          Let us take a look at two examples to understand the difference.
+
+          Both examples call a method twice, first when the page loads, and once again when the user clicks a button.
+
+          The first example uses a regular function, and the second example uses an arrow function.
+
+          The result shows that the first example returns two different objects (window and button), and the second example returns the Header object twice.</p>
+        <h1 style={{ fontSize: '30px' }}>Example:</h1>
+        <p>With a regular function,  <span className='text-red-600'>this</span> represents the object that called the function:</p>
+
+        <pre>
+          <Code code={ex9code} language='javascript'></Code>
+        </pre>
+        <p>With an arrow function,  <span className='text-red-600'>this</span> represents the Header object no matter who called the function:</p>
+
+
+        <pre>
+          <Code code={ex10code} language='javascript'></Code>
+        </pre>
+          
+
+
+
+
       </div>
     </div>
   )
