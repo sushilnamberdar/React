@@ -25,8 +25,6 @@ import ReactHooks from './Component/Pages/ReactHooks';
 function App() {
   return (
     <>
-
-
       <Router>
         <Navbar />
         <Mainmenu />
@@ -45,10 +43,8 @@ function App() {
           <Route path='home/ReactComponents' element={<ReactComponents/>} />
           <Route path='home/reacthooks' element={<ReactHooks/>}></Route>
         </Routes>
-      
         <Footer/>
       </Router>
-      
     </>
   );
 }

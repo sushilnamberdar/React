@@ -4,7 +4,7 @@ export const Aboutus = () => {
   return (
     <>
 
-      <div class="container flex justify-center mt-20" >
+      <div class="container flex justify-center lg:-mt-60 lg:mb-72" >
         <div class="max-w-full lg:max-w-screen-md pl-8 pr-8 lg:-m-60">
           {/* <!-- Your content goes here --> */}
           <h1>About Us</h1>

@@ -3,8 +3,7 @@ import React from 'react'
 export const Login = () => {
   return (
    <>
-
-<div className="flex items-center justify-center  w-full px-5 sm:px-0 " style={{marginTop:'-9px'}}>
+<div className="flex items-center justify-center  w-full px-5 sm:px-0  lg:-mt-[340px] lg:mb-24" >
       <div className="flex bg-white rounded-lg shadow-lg border overflow-hidden max-w-sm lg:max-w-1xl w-full  mt-5 lg:-mt-40">
         <div className="w-full p-8 lg ">
           <p className="text-xl text-gray-600 text-center">Welcome back!</p>
