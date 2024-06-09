@@ -15,7 +15,7 @@ export const Mainmenu = () => {
 
     return (
 
-        <div class="container block justify-center mt-10 ml-4 sticky top-20 z-50 " style={{width:'150px'}} >
+        <div class="container block justify-center mt-10 ml-4 sticky top-20 z-30 " style={{width:'150px'}} >
             {/* Menu button that show only in mobile  */}
             <input type='checkbox' id='menu-toggle' className='hidden peer' />
             <label

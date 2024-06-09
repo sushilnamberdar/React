@@ -4,9 +4,9 @@ import { logo, navbar } from '../data/data'
 
 export const Footer = () => {
   return (
-    <footer className=" bg-blueGray-200 pt-8 pb-6 lg:ml-48 " >
+    <footer className=" bg-blueGray-200 pt-8 pb-6 lg:ml-48 lg:mr-48" >
     <div className="container mx-auto px-4 mt-0">
-      <div className="flex flex-wrap text-left lg:text-left">
+      <div className="flex flex-wrap text-left  items-center  lg:text-center">
         <div className="w-full lg:w-6/12 px-4">
           <h4 className="text-3xl font-semibold text-blueGray-700">Let's keep in touch!</h4>
           <h5 className="text-lg mt-0 mb-2 text-blueGray-600">

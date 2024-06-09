@@ -23,6 +23,10 @@ function classNames(...classes) {
 }
 
 export const Navbar = () => {
+
+  const handleMenuItemClick = () => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+};
   return (
     <Disclosure as="nav" className="bg-gray-800 sticky top-0 z-50 h-90">
       {({ open }) => (
@@ -143,6 +147,7 @@ export const Navbar = () => {
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navbar.map((item) => (
                 <DisclosureButton
+                onClick={handleMenuItemClick}
                   key={item.name}
                   as={Link}
                   to={item.path}

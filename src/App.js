@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Contectus } from './Component/Contectus';
 import { Aboutus } from './Component/Aboutus';
 import { Login } from './Component/Login';
-// import { Menu, MenuSection } from '@headlessui/react';
 import { Mainmenu } from './Component/Mainmenu';
 import { Reacthome } from './Component/Pages/Reacthome';
 import { ReactIntro } from './Component/Pages/ReactIntro';
@@ -18,6 +17,7 @@ import VirtualDomIntroduction from './Component/Pages/ VirtualDomIntroduction';
 import ReactProps from './Component/Pages/ReactProps';
 import ReactComponents from './Component/Pages/ReactComponents';
 import ReactHooks from './Component/Pages/ReactHooks';
+import AxiosPage from './Component/Pages/AxiosPage';
 
 
 
@@ -41,7 +41,8 @@ function App() {
           <Route path='home/vdomIntroduction' element={<VirtualDomIntroduction/>} />
           <Route path='home/props' element={<ReactProps/>} />
           <Route path='home/ReactComponents' element={<ReactComponents/>} />
-          <Route path='home/reacthooks' element={<ReactHooks/>}></Route>
+          <Route path='home/reacthooks' element={<ReactHooks/>} />
+          <Route path='home/axios' element={<AxiosPage/>} />
         </Routes>
         <Footer/>
       </Router>
