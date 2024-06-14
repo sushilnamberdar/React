@@ -185,7 +185,7 @@ export const store = configureStore({
 
                     <h3 style={{ fontSize: '25px' }}>Create a Redux Store</h3>
                     <p>Create a file named src/app/store.js. Import the configureStore API from Redux Toolkit. We'll start by creating an empty Redux store, and exporting it:</p>
-                    <pre className='p-2 rounded mb-4 text-green-600 overflow-x-auto' style={{ background: 'black' }}>
+                    <pre>
                         <Code code={codeexp5} language='javascript'></Code>
                     </pre>
 
