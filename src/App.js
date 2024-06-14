@@ -18,6 +18,7 @@ import ReactProps from './Component/Pages/ReactProps';
 import ReactComponents from './Component/Pages/ReactComponents';
 import ReactHooks from './Component/Pages/ReactHooks';
 import AxiosPage from './Component/Pages/AxiosPage';
+import Redux from './Component/Pages/Redux';
 
 
 
@@ -43,6 +44,7 @@ function App() {
           <Route path='home/ReactComponents' element={<ReactComponents/>} />
           <Route path='home/reacthooks' element={<ReactHooks/>} />
           <Route path='home/axios' element={<AxiosPage/>} />
+          <Route path='home/redux' element={<Redux/>} />
         </Routes>
         <Footer/>
       </Router>
