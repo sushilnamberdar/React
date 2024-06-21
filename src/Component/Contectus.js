@@ -8,9 +8,9 @@ export const Contectus = () => {
                     <div class="text-lg mb-4 text-gray-800 mt-10">
                         <h2>Social Media</h2>
                         <p>
-                            <strong>Twitter:</strong> <a href="https://x.com/BuntyNamberdar" target="_blank" class="text-blue-600">@BuntyNamberdar</a><br />
-                            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sushilnamberdar/" target="_blank" class="text-blue-600">Our LinkedIn Profile</a><br />
-                            <strong>Instagram:</strong> <a href="https://www.instagram.com/buntynamberdar/" target="_blank" class="text-blue-600">@buntynamberdar</a>
+                            <strong>Twitter:</strong> <a href="https://x.com/BuntyNamberdar" target="_blank" class="text-gray-800">@BuntyNamberdar</a><br />
+                            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sushilnamberdar/" target="_blank" class="text-gray-800">Our LinkedIn Profile</a><br />
+                            <strong>Instagram:</strong> <a href="https://www.instagram.com/buntynamberdar/" target="_blank" class="text-gray-800">@buntynamberdar</a>
                         </p>
                     </div>
                     <div>
