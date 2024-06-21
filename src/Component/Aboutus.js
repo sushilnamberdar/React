@@ -26,7 +26,7 @@ export const Aboutus = () => {
           <p>
             Happy Coding!
           </p>
-          <div class="bg-white p-6  flex justify-center rounded-lg shadow-lg mt-20">
+          <div class="bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300 p-6  flex justify-center rounded-lg shadow-lg mt-20">
             <p class="text-gray-700"> Thanks </p>
           </div>
         </div>
