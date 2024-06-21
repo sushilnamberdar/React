@@ -106,7 +106,7 @@ document.getElementById("btn").addEventListener("click", myheader.changeColor);`
 
 
   return (
-    <div class=" flex justify-center  items-center lg:-mt-[470px]">
+    <div class=" flex justify-center  items-center lg:-mt-[470px] lg:mb-20">
       <div class="max-w-full lg:max-w-screen-md pl-8 pr-8 space-y-4" style={{ fontSize: '20px' }}>
         <h1 style={{ fontSize: '30px' }}>What is ES6?</h1>
         <p>ES6 stands for ECMAScript 6.</p>

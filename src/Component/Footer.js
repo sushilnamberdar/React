@@ -32,7 +32,7 @@ export const Footer = () => {
         </div>
         <div className="w-full lg:w-6/12 px-4">
           <div className="flex flex-wrap items-top mb-6   ml-60  ">
-            <div className="w-full lg:w-4/12 px-4">
+            <div className="w-full grid justify-center lg:w-4/12 px-4">
               <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2 -ml-40">USEFUL LINKS</span>
               <ul className="list-unstyled">
                {navbar.map((item,index) => {

@@ -61,7 +61,7 @@ class LifecycleDemo extends React.Component {
     `;
 
     return (
-        <div className="flex justify-center items-center lg:-mt-[470px]">
+        <div className="flex justify-center items-center lg:-mt-[470px] lg:mb-20">
             <div className="max-w-full lg:max-w-screen-md pl-8 pr-8 space-y-4" style={{ fontSize: '20px' }}>
                 <h1 style={{ fontSize: '30px' }}>React Components and Their Lifecycle</h1>
                 <p>React components are the building blocks of a React application. They allow you to split the UI into independent, reusable pieces, and think about each piece in isolation.</p>

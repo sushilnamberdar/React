@@ -89,7 +89,7 @@ export const store = configureStore({
 })`
     return (
         <div>
-            <div className="flex justify-center lg:-mt-[470px]">
+            <div className="flex justify-center lg:-mt-[470px] lg:mb-20">
                 <div className="max-w-full lg:max-w-screen-md pl-8 pr-8 space-y-4" style={{ fontSize: '20px' }}>
                     <h1 style={{ fontSize: '42px' }}>Redux Installation</h1>
 

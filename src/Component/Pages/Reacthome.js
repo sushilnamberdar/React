@@ -3,7 +3,7 @@ import localhostimgreact from '../../Images/Screenshot_2024-05-19_22_20_05.png'
 
 export const Reacthome = () => {
   return (
-    <div class=" flex justify-center items-center lg:-mt-[470px]">
+    <div class=" flex justify-center items-center lg:-mt-[470px] lg:mb-20">
       <div class="max-w-full lg:max-w-screen-md pl-8 pr-8">
         <div className="container mx-auto p-4" style={{ fontSize: '22px' }}>
           <p className="mt-6 text-xl font-semibold">About React</p>

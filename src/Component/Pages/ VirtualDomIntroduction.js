@@ -72,7 +72,7 @@ ReactDOM.render(element, document.getElementById('root'));
     `;
 
     return (
-        <div className="flex justify-center items-center lg:-mt-[470px]">
+        <div className="flex justify-center items-center lg:-mt-[470px] lg:mb-20">
             <div className="max-w-full lg:max-w-screen-md pl-8 pr-8 space-y-4" style={{ fontSize: '20px' }}>
                 <h1 style={{ fontSize: '30px' }}>Introduction to the Virtual DOM</h1>
                 <p>The Virtual DOM (VDOM) is a concept implemented by libraries such as React. It's a lightweight, in-memory representation of the real DOM. The Virtual DOM allows React to efficiently update the UI by keeping a virtual representation of the UI and only updating the parts that change.</p>

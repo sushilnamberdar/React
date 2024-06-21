@@ -26,7 +26,7 @@ function ThemeToggle() {
     `;
 
     return (
-        <div className="flex justify-center items-center lg:-mt-[470px]">
+        <div className="flex justify-center items-center lg:-mt-[470px] lg:mb-20">
             <div className="max-w-full lg:max-w-screen-md pl-8 pr-8 space-y-4" style={{ fontSize: '20px' }}>
                 <h1 style={{ fontSize: '30px' }}>Understanding React Hooks</h1>
                 <p>React Hooks are functions that enable you to use state and other React features without writing a class. They allow you to use React features in functional components, which can make your code more concise and easier to understand.</p>
