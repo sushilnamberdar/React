@@ -4,7 +4,7 @@ import { logo, navbar } from '../data/data'
 
 export const Footer = () => {
   return (
-    <div className='lg:mt-0 md:mt-0  '>
+    <div className='lg:mt-[-50px] md:mt-0  '>
     <footer className=" bg-blueGray-200 pt-8 pb-6 lg:ml-48 lg:mr-48" >
     <div className="container mx-auto px-4 ">
       <div className="flex flex-wrap text-left  items-center  lg:text-center">
@@ -13,7 +13,7 @@ export const Footer = () => {
           <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
             Find us on any of these platforms, we respond 1-2 business days.
           </h5>
-          <div className="mt-6 lg:mb-0 mb-6">
+          <div className=" flex items-center justify-center mt-6 lg:mb-0 mb-6">
             
               {
                 logo.map((item,index) =>{
@@ -31,13 +31,13 @@ export const Footer = () => {
           </div>
         </div>
         <div className="w-full lg:w-6/12 px-4">
-          <div className="flex flex-wrap items-top mb-6 ml-60  ">
+          <div className="flex flex-wrap items-top mb-6   ml-60  ">
             <div className="w-full lg:w-4/12 px-4">
               <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2 -ml-40">USEFUL LINKS</span>
               <ul className="list-unstyled">
                {navbar.map((item,index) => {
                 return(
-                <li> <Link key={item.index} className='-ml-40' to={`${item.path}`}>{item.name}</Link></li>
+                <li> <Link key={index} className='-ml-40' to={`${item.path}`}>{item.name}</Link></li>
                 )
                })}
                 

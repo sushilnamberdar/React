@@ -3,7 +3,7 @@ import React from 'react'
 export const Contectus = () => {
     return (
         <>
-            <div class="container flex justify-center lg:-mt-60 lg:mb-60 ">
+            <div class="container flex justify-center lg:-mt-60 lg:mb-96 ">
                 <div class="max-w-full lg:max-w-screen-md px-4 lg:px-8     lg:-m-60 bg-white w-full max-w-[500px] h-auto grid justify-center items-center">
                     <div class="text-lg mb-4 text-blue-300 mt-10">
                         <h2>Social Media</h2>

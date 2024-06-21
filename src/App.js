@@ -18,6 +18,7 @@ import ReactComponents from './Component/Pages/ReactComponents';
 import ReactHooks from './Component/Pages/ReactHooks';
 import AxiosPage from './Component/Pages/AxiosPage';
 import Redux from './Component/Pages/Redux';
+import Welcome from './Component/Welcome';
 
 
 
@@ -26,9 +27,13 @@ function App() {
   return (
     <>
       <Router>
+
         <Navbar />
+
         <Mainmenu />
+        
         <Routes>
+          <Route path='/' element={<Welcome/>}/>
           <Route path='/contectus' element={<Contectus />} />
           <Route path='/aboutus' element={<Aboutus />} />
           <Route path='/login' element={<Login />} />
@@ -47,6 +52,7 @@ function App() {
         </Routes>
         <Footer/>
       </Router>
+      
     </>
   );
 }
